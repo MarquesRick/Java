@@ -7,5 +7,7 @@ public class If {
 		
 		if(nota >= 9 && bomComportamento)
 			System.out.println("Quadro de honra!");
+		
+		System.out.println("Teste");
 	}
 }
