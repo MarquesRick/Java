@@ -7,7 +7,7 @@ public class Produto {
 	int codigo;
 	double preco;
 	
-	public Produto Produto() {
+	public Produto produto() {
         return this;
     }
 	
