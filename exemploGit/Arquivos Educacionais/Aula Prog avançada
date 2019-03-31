@@ -1,0 +1,23 @@
+Lista duplamente encadeada
+
+A lista duplamente encadeada é uma estrutura linear sequencial que permite o
+acesso aos dados em dois sentidos.
+A estrutura duplamente encadeada é a base das demais estruturas que uma aborda
+para que possamos operar esta estrutura é necessária estabelecer dois ponteiros
+na struct, conforme exemplo abaixo:
+
+typedef struct no{
+
+  int codigo;
+  char nome;
+  Struct no *next, *Back;
+
+}no;
+
+Podemos perceber que a struct acima possui dois campos do tipo ponteiro, que permite em dois sentidos.
+Isso não garante que a estrutura duplamente tenha desempenho melhor que a
+estrutura simplesmente encadeada, até porque ambas são estruturas de organização
+sequencial. Quanto ao nó, podemos observar abaixo a seguinte visão:
+
+Struct No, quanto ao posicionamento dos campos na struct, representa simbolicamente apenas para facilitar
+o entendimento, mas não existe posição definida na struct.
