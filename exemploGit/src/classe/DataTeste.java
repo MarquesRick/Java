@@ -14,6 +14,7 @@ public class DataTeste {
 		
 		System.out.println(nascimento.formatar());
 		System.out.println(casamento.formatar());
+		System.out.println("Teste");
 	}
 	
 }
