@@ -1,0 +1,7 @@
+Os pilares de Orientação a Objetos
+
+- Encapsulamento
+- Herança 
+- Polimorfismo
+
+Encapsulamento: Não precisa conhecer o que está dentro do objeto para poder usa-lo.

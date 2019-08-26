@@ -1,0 +1,20 @@
+Revisão:
+=========================Java=========================
+
+Programação estruturada == Programação Procedural. Ex: GoTo.
+
+POO - Agrupa dados e comportamentos de dados.
+
+Classe == Molde -> Modelo dos objetos.
+Objeto == Mesma estrutura da classe e atributos. O que diferencia um objeto do outro é os dados.
+Instancias == Estrutura da classe no objto, podendo ser usada em outros objetos.
+Membros de classe/instancias == atributos e dados daquela classe.
+Métodos == comportamentos daquela classe.
+Static == uma vez que marca o métoco ou atributo como Static, não precisa instanciar dentro da classe, apenas colocando: Nome_da_Classe.Atributo
+
+Valor Vs Referencia:
+Valor = de uma variavél para a outra, é apenas passado o valor do objeto.
+Referencia == é passado o local do endereço na memória, se é atribuído uma variável a outra e em uma ser alterado o valor, será refletido na outra variável também.
+
+
+
