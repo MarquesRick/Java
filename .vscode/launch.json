@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalculadoraTeste",
+            "request": "launch",
+            "mainClass": "classe.CalculadoraTeste",
+            "projectName": "CursoJava"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio1",
+            "request": "launch",
+            "mainClass": "fundamentos.Exercicio1",
+            "projectName": "CursoJava"
+        }
+    ]
+}
