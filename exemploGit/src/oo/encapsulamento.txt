@@ -1,0 +1,8 @@
+------------------------Encapsulamento------------------------
+
+níveis de visibilidade:
+
+- Private: Método e atributo visivél apenas naquela classe. Sem acesso aquela informação definida.
+- Default/Pacote: Métodos e atributos visíveis dentro daquele pacote.
+- Protected: Visivél dentro do pacote e dentro da classe no pacote daquela classe e transmitido por herança 
+em uma classe dentro daquela classe. 

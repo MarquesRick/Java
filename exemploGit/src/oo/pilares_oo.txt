@@ -1,7 +1,57 @@
-Os pilares de Orientação a Objetos
+-----------------------------Os pilares de Orientação a Objetos-----------------------------
 
 - Encapsulamento
 - Herança 
 - Polimorfismo
 
-Encapsulamento: Não precisa conhecer o que está dentro do objeto para poder usa-lo.
+--------------------------------------Encapsulamento--------------------------------------
+
+Encapsulamento: Não precisa conhecer o que está dentro do objeto para poder usa-lo. 
+O objeto é o mecanismo que contém o Encapsulamento.
+Capsula é o objeto, encapsulamento são atributos e métodos.
+prética do encapsulamento: Nivéis de visiabilidade:
+
+4 Níveis de visiabilidade
+- Public: Todos podem acessar a informação.
+- Protect: 
+- Default:
+- Private: Só é visivél dentro do objeto que ele foi definido.
+
+--------------------------------------Herança--------------------------------------
+
+Herança: Forma de se reutilizar código, escrevendo em um lugar e herdando atributos e comportamentos
+em outros.
+Existem 2 formas de se reutilizar código.
+
+- Composição: Não precisa escrever tudo dentro de um objeto, pode herdar pequenos atributos e métodos de outra classe
+(tem um)
+
+- Herança: Herda todos os atrinbutos e comportamentos de uma classe (gnérica) para outra classe (especifica).
+(é um)
+
+--------------------------------------Polimorfismo--------------------------------------
+
+Polimorfismo: Multiplas-formas.
+
+Existem dois tipos de Polimorfismo:
+
+Static e Dinamic:
+Polimorfismo Dinâmico: Uma variável que assume multiplas formas baseadas em herança. Exemplo:
+
+boolean estacionarCarro(Carro c) {} -> Método recebe parâmetro "Carro"
+estacionarCarro(new Civic()) {} -> Civic herda da classe Carro (filho de Carro)
+estacionarCarro(new Ferrari()) {} -> Ferrari herda da classe Carro (filho de Carro)
+
+Resumo: Uma váriavel genérica que pode receber instâncias mais específicas.
+Pode criar classes específicas e atribuir em objetos genéricos. Exemplo: Carro c(<-genérico) = new Ferrari();(<-específico).
+
+------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
