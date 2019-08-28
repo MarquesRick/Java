@@ -26,6 +26,6 @@ public class Foreach1 {
 	}
 	
 	System.out.println(totalJoao / notasJoao.length);
-	System.out.println(totalJoao / notasPedro.length);
+	System.out.println(totalPedro / notasPedro.length);
 	}
 }

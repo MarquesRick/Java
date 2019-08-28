@@ -1,0 +1,43 @@
+---------Array---------
+
+- Só aceita dados do mesmo tipo.
+- Estatico, não mútavel.
+- Pode ter uma ou mais dimensões.
+- Indexado (Acessa um dado por indice)
+
+---------Collections---------
+
+- Heterogeneas (Mais de um tipo de dados.) ou homogeneas.
+- Dinamica, mutável.
+
+---------Set---------
+
+Set ou Conjunto:
+- não ordenada (por padrão)
+- Não indexada.
+- Não aceita repetição
+
+Tipo de Set:
+
+Hashset: não aceita ordenação nem ordem natural de inserção - Sorteado os dados
+LinkedHashset: Ordena pela ordem de inserção.
+Treeset: Ordena pela ordem Alfabética. 
+
+---------List---------
+- Indexada
+- Aceita repetição
+- Heterogenea e Homogenea
+- Dinamica
+- Por padrão é ordem de inserção
+
+---------Map---------
+-Chave (set)/Valor(list)
+
+---------Queue(Fila)---------
+- First in first out (FIFO)
+
+---------Stack(pilha)---------
+- Last in/First Out(LIFO)
+
+
+
