@@ -1,4 +1,4 @@
-package empresa;
+package faculdade;
 
 /**
  *
@@ -28,6 +28,18 @@ public class Fornecedor {
 
     public String getFone() {
         return fone;
+    }
+    
+    public Fornecedor(String valVendedor, String valFone){
+    	
+    	vendedor = valVendedor;
+    	fone = valFone;
+    	
+    }
+    
+    public void print() {
+    	
+    	System.out.println("Vendedor: " + getVendedor() + "\n" + "Fone: " + getFone() + "\n" );
     }
 }
 
