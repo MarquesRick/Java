@@ -38,7 +38,14 @@ public class Funcionario {
 	    }
 
 	    public void print(){
-	        System.out.println("Nome" + nome + "\n" + "salario:" + salario + "\n");
+	        System.out.println("Nome: " + nome + "\n" + "salario: " + salario + "\n");
 	    }
+	    
+	   public Funcionario(Funcionario f){
+		   //Copy Construct
+		  nome = f.nome;
+		  salario = f.salario;
+		  
+	   }
 	}//Funcionario
 

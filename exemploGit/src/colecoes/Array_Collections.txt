@@ -38,6 +38,55 @@ Treeset: Ordena pela ordem Alfabética.
 
 ---------Stack(pilha)---------
 - Last in/First Out(LIFO)
+- Push() Coloca na pilha
+- Peek() Pegar sem tirar o elemento da fila
+- Pop() Pegar o elemento do topo e remover da pilha
+-------------------------------
+
+List <> Indexadas
+
+List pode ter o mesmo elemento mais de uma vez dentro dele 
+Ordenado por ordem de inserção.
+
+Queue (kill) -> Fila -> FIFO
+
+PEEK/ELEMENT
+
+System.out.println("Peek/Element..." );
+System.out.println(fila.peek()); //retorna o elemento objeto da fila
+
+POLL/REMOVE
+System.out.println("Poll/Remove");
+System.out.println(fila.poll());//Remove o primeiro indice 
+
+STACK -> PILHA
+
+Push() //Metodo Push coloca o elemento na pilha
+Peek() //Pegar sem tirar o elemento da fila
+Pop() //Pegar o elemento do topo e remover da pilha
+
+MAP -> Estrutura dinamica
+Pode ser heterogênea 
+Pode percorrer as chaves/valores ou os dois
+	
+HASHCODE & EQUALS
+
+Para bsucar objetos ou comparar
+
+hashcode(); -> busca o hashcode
+equals(); -> apenas objetos com o mesmo hashcode são comparados com equals
+
+Alt + Shift + S -> Gera um código automatico para o HashCode, gerando conceito de igualdade
+
+AULA DE REVISÃO
+
+Dois tipos de linguagens: Não-estruturada (Baseadas em GoTo)
+Estruturado: Procedural, funcional e OO.
+
+Procedural Vs OO 
+
+Procedural: Funções operando em cima de dados
+OO: Objetos operando em cima de dados e comportamentos
 
 
 

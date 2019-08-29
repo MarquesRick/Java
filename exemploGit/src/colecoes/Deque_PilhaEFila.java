@@ -1,10 +1,13 @@
 package colecoes;
 
 import java.util.Stack;
-import java.util.Deque;
-import java.util.ArrayDeque;
 
-public class Pilha {
+/*
+ * @Ctrl + O -> importa os Import para o projeto
+ * @Ctrl + shift + F -> Formatação do código
+ */
+public class Deque_PilhaEFila {
+
 	public static void main(String[] args) {
 		Stack<String> pilha = new Stack<>();
 
@@ -22,6 +25,5 @@ public class Pilha {
 		System.out.println(pilha.pop());
 		System.out.println(pilha.pop());
 		System.out.println(pilha.pop());
-
 	}
 }

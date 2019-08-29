@@ -1,0 +1,13 @@
+Novo projeto
+Nova classe: Ponto
+Representa um ponto no plano cartesiano.
+Tem como atributos as coordenadas x e y (double).
+
+Faça 3 construtores para a classe:
+
+Padrão: zera as coordenadas.
+com parametros: recebe parametros para x e y.
+
+De cópia: copia as coordenadas de outro projeto
+
+faça os getters e setters e um método printf() que imprima as coordenadas no formato(x,y).

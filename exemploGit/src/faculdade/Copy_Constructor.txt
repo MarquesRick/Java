@@ -1,0 +1,29 @@
+Construtor de cópia 
+(Copy Constructor)
+
+A finalidade deste tipo de construtor é criar um objeto copiando os valores de atributos de outro objeto já existente.
+O novo objeto será portanto, uma cópia do outro obejto.
+Seu único parâmetro é o objeto que será copiado.
+
+Exemplo:
+
+Public class Funcionario{
+
+	private String nome;
+	private double salario;
+	
+	public Funcionario(Funcionario f){
+	
+	nome = f.nome;
+	salario = f.salario;
+
+	}
+}
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Referencia This
+
+É uma referência ao objeto que exite dentro do próprio objeto. Todo o objeto contém uma referência a ele mesmo. A referencia this pode ser usada
+usada para resolver conflitos de nomes e também para chamar construtores a partir de outros construtores.
+Só pode ser usada dentro da classe.
