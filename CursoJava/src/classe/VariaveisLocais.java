@@ -11,10 +11,10 @@ public class VariaveisLocais {
 		System.out.println(a1);
 		
 		if(a1 > 3){
-			int a2 = 3; //Variavel não possivel acessa fora do escopo de void
+			int a2 = 3; //Variavel nï¿½o possivel acessa fora do escopo de void
 		}
 		
-		//System.out.println(a2); //Não é possivel acessar uma variavel que foi definida dentro de um escopo local
+		//System.out.println(a2); //Nï¿½o ï¿½ possivel acessar uma variavel que foi definida dentro de um escopo local
 	}
 	
 	void teste2(){
