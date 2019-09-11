@@ -20,5 +20,6 @@ public class Produto {
     public void setMarca (String marca) { this.marca = marca; }
     public void setCodigo (int codigo) { this.codigo = codigo; }
     public void setPreco (double preco) { this.preco = preco; }
+    //teste
 }
 
