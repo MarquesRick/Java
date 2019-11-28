@@ -3,15 +3,16 @@ package controle;
 import java.util.Scanner;
 
 /*
- * 3. Criar um programa que receba duas notas parciais, calcular a média final. 
+ * 3. Criar um programa que receba duas notas parciais, calcular a meÌ�dia final. 
  * Se a nota do aluno for maior ou igual a 7.0 imprime no console "Aprovado", 
- * se a nota for menor que 7.0 e maior do que 4.0 imprime no console "Recuperação", 
- * caso contrário imprime no console "Reprovado". 
+ * se a nota for menor que 7.0 e maior do que 4.0 imprime no console "RecuperacÌ§aÌƒo", 
+ * caso contraÌ�rio imprime no console "Reprovado". 
  */
 
 public class Exercicio3 {
 
 	public static void main(String[] args) {
+		
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -27,7 +28,7 @@ public class Exercicio3 {
 			System.out.println("Aprovado");
 		}
 		else if(unota >= 4){
-			System.out.println("Recuperação");
+			System.out.println("RecuperaÃ§Ã£o");
 		} else{
 			System.out.println("Reprovado");
 		}
